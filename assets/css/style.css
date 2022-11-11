@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+  h1{
+    margin-top: 24px;
+  }
+
+  .form-container {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 500px;
+    height: 100%;
+    padding-bottom: 50px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .input-container{
+    margin-top: 24px;
+  }
+
+  .list-container{
+    
+  }
+
+  input[type=text] {
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  input[type=submit] {
+    padding: 5px 15px;
+    background: rgb(9, 216, 43);
+    border: 0 none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  input[type=submit]:hover{
+    background-color:rgba(9, 216, 44, 0.766);
+    transform: translateY(-2px);
+    transition: 0.4s;
+  }
+
+  button {
+    padding: 5px 15px;
+    background: rgb(217, 203, 2);
+    border: 0 none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color:rgba(217, 181, 2, 0.921) ;
+    transform: translateY(-2px);
+    transition: 0.4s;
+  }
+
+  #warning-output {
+    text-align: center;
+    color: red;
+  }
+
+  p {
+    margin-top: 24px;
+    font-size: 24px;
+  }
